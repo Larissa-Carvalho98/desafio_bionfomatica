@@ -4,6 +4,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - mosdepth=0.3.10=h4e814b3_1
+  - samtools=1.21=h96c455f_1
+  - numpy=2.2.5
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
   - bzip2=1.0.8=h4bc722e_7
@@ -25,10 +28,8 @@ dependencies:
   - libstdcxx=15.1.0=h8f9b012_2
   - libstdcxx-ng=15.1.0=h4852527_2
   - libzlib=1.3.1=hb9d3cd8_2
-  - mosdepth=0.3.10=h4e814b3_1
   - ncurses=6.5=h2d0b736_3
   - openssl=3.5.0=h7b32b05_1
-  - samtools=1.21=h96c455f_1
   - zstd=1.5.7=hb8e6e7a_2
-  - numpy=2.2.5
+  - verifybamid2
 prefix: /root/miniconda3/envs/bioinfo_env

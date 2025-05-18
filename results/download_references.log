@@ -1,0 +1,11 @@
+2025-05-17 19:03:45,063 - INFO - Baixando arquivos principais de dados (.cram, .crai, .bed)...
+2025-05-17 19:03:45,063 - INFO - NA06994.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram já existe, pulando download.
+2025-05-17 19:03:45,063 - INFO - NA06994.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram.crai já existe, pulando download.
+2025-05-17 19:03:45,063 - INFO - hg38_exome_v2.0.2_targets_sorted_validated.re_annotated.bed já existe, pulando download.
+2025-05-17 19:03:45,063 - INFO - Baixando arquivo de referência .fasta...
+2025-05-17 19:03:45,063 - INFO - Homo_sapiens_assembly38.fasta já existe, pulando download.
+2025-05-17 19:03:45,063 - INFO - Baixando arquivos do VerifyBamID2 (100k)...
+2025-05-17 19:03:45,063 - INFO - 1000g.phase3.100k.b38.vcf.gz.dat.UD já existe, pulando download.
+2025-05-17 19:03:45,064 - INFO - 1000g.phase3.100k.b38.vcf.gz.dat.V já existe, pulando download.
+2025-05-17 19:03:45,064 - INFO - 1000g.phase3.100k.b38.vcf.gz.dat.bed já existe, pulando download.
+2025-05-17 19:03:45,064 - INFO - 1000g.phase3.100k.b38.vcf.gz.dat.mu já existe, pulando download.

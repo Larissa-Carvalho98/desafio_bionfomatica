@@ -1,0 +1,10 @@
+data/*
+results/*
+*.bed
+*.cram
+*.crai
+*.mu
+*.UD
+*.V
+*.fasta
+*.fai

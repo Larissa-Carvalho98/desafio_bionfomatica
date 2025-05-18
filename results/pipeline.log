@@ -1,0 +1,28 @@
+2025-05-17 21:02:31,476 - INFO - Diretórios configurados
+2025-05-17 21:02:31,476 - INFO - Calculando estatísticas de cobertura
+2025-05-17 21:02:31,476 - INFO - Executando: mosdepth para cálculo de cobertura
+2025-05-17 21:02:31,476 - DEBUG - Comando: mosdepth --fasta data/references/Homo_sapiens_assembly38.fasta --by data/hg38_exome_v2.0.2_targets_sorted_validated.re_annotated.bed --thresholds 1,10,30 results/coverage data/NA06994.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram
+2025-05-17 21:05:27,556 - DEBUG - Saída: 
+2025-05-17 21:05:28,505 - INFO - Inferindo sexo genético
+2025-05-17 21:05:28,506 - INFO - Executando: mosdepth para cromossomo X
+2025-05-17 21:05:28,506 - DEBUG - Comando: mosdepth --fasta data/references/Homo_sapiens_assembly38.fasta --by results/chrX.bed results/chrX data/NA06994.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram
+2025-05-17 21:08:44,909 - DEBUG - Saída: 
+2025-05-17 21:08:44,915 - INFO - Executando: mosdepth para cromossomo Y
+2025-05-17 21:08:44,916 - DEBUG - Comando: mosdepth --fasta data/references/Homo_sapiens_assembly38.fasta --by results/chrY.bed results/chrY data/NA06994.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram
+2025-05-17 21:12:03,806 - DEBUG - Saída: 
+2025-05-17 21:12:03,816 - DEBUG - Listando arquivos em data/references/verifybamid2:
+2025-05-17 21:12:03,817 - DEBUG - resource_dir absolute: /app/data/references/verifybamid2
+2025-05-17 21:12:03,818 - DEBUG -   - 1000g.phase3.100k.b38.vcf.gz.dat.mu
+2025-05-17 21:12:03,818 - DEBUG -   - 1000g.phase3.100k.b38.vcf.gz.dat.V
+2025-05-17 21:12:03,818 - DEBUG -   - 1000g.phase3.100k.b38.vcf.gz.dat.UD
+2025-05-17 21:12:03,818 - DEBUG -   - 1000g.phase3.100k.b38.vcf.gz.dat.bed
+2025-05-17 21:12:03,819 - INFO - Executando: VerifyBamID2
+2025-05-17 21:12:03,819 - DEBUG - Comando: verifybamid2 --SVDPrefix data/references/verifybamid2/1000g.phase3.100k.b38.vcf.gz.dat --Reference data/references/Homo_sapiens_assembly38.fasta --BamFile data/NA06994.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram --Output results/contamination --NumThread 4 --Epsilon 1e-8
+2025-05-17 21:29:58,157 - DEBUG - Saída: Estimation from OptimizeHeter:
+Contaminating Sample PC1:-0.0421152	PC2:0.0453654	
+Intended Sample PC1:-0.0104294	PC2:0.0243252	
+FREEMIX(Alpha):0.000459546
+
+2025-05-17 21:29:58,168 - INFO - Contaminação estimada (FREEMIX): -64047.5000
+2025-05-17 21:29:58,170 - INFO - Relatório gerado em: results/relatorio_final.txt
+2025-05-17 21:29:58,170 - INFO - Pipeline concluído com sucesso!

@@ -1,0 +1,9 @@
+__pycache__
+*.bed
+*.cram
+*.crai
+*.mu
+*.UD
+*.V
+*.fasta
+*.fai

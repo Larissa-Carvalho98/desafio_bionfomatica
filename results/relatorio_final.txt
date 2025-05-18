@@ -1,0 +1,13 @@
+
+=== Relatório de Controle de Qualidade ===
+
+1. Cobertura:
+   - Profundidade média: 82.14x
+   - % do exoma coberto ≥10x: 97.16%
+   - % do exoma coberto ≥30x: 96.46%
+
+2. Sexo genético: Masculino (XY)
+
+3. Contaminação:
+   - FREEMIX: -64047.5000
+   - Interpretação: ✅ Baixa contaminação
